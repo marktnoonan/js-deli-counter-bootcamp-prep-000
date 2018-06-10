@@ -20,8 +20,8 @@ function currentLine(line) {
     return "The line is currently empty."
   } 
   const placesAndPeopleString = line.map(function(name, index){
-    return `${index +1}. ${name}, `
-  }).join('')
+    return `${index +1}. ${name}`
+  }).join(', ')
 
   return `The line is currently: ${placesAndPeopleString}`
 }
