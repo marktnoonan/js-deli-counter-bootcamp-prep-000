@@ -10,5 +10,5 @@ function nowServing(deliLine) {
   if (!deliLine.length) {
     return "There is nobody waiting to be served!"
   } 
-  return `Currently serving ${deliLine[0]}`
+  return `Currently serving ${deliLine[0]}.`
 }
