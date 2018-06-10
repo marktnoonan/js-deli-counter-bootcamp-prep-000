@@ -8,6 +8,6 @@ function takeANumber(deliLine, name) {
 
 function nowServing() {
   if (!katzDeliLine.length) {
-    return "the line is empty"
+    return "There is nobody waiting to be served!"
   }
 }
