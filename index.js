@@ -15,3 +15,8 @@ function nowServing(deliLine) {
   return `Currently serving ${serving}.`
 }
 
+function currentLine(line) {
+  if (!line.length) {
+    return 
+  }
+}
