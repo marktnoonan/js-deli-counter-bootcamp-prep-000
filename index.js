@@ -11,7 +11,7 @@ function nowServing(deliLine) {
     return "There is nobody waiting to be served!"
   } 
   const serving = deliLine[0]
-  deliLine.unshift()
+  deliLine.shift()
   return `Currently serving ${serving}.`
 }
 
