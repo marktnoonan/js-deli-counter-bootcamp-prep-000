@@ -17,6 +17,11 @@ function nowServing(deliLine) {
 
 function currentLine(line) {
   if (!line.length) {
-    return 
-  }
+    return "The line is currently empty."
+  } 
+  const placesAndPeopleString = line.map(function(name, index){
+    return `${index +1}. ${name}, `
+  }).join('')
+
+  return `The line is currently: ${placesAndPeopleString}`
 }
